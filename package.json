@@ -1,0 +1,11 @@
+{
+  "name": "hiphiphorhayy_site_repo",
+  "version": "1.0.0",
+  "description": "For now a draft of the personal website I'm making.\r Will mimic what the \"app\" could look like.\r Also has personal photography portfolio.\r Background is blue circuit boards lighting up in\r dark room & them is white on top of it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George M",
+  "license": "ISC"
+}
