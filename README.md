@@ -5,5 +5,3 @@ Will mimic what the "app" could look like.
 Also has personal photography portfolio.
 Background is blue circuit boards lighting up in
 dark room & them is white on top of it
-
-# Dependencies
