@@ -9,32 +9,38 @@
 <body style="background-image: url(./images/giphy.gif); background-size: cover; height: 100vh;">
     <div class="flex flex-col min-h-screen">
         <header>
-        <style>
-            #menu-toggle:checked + #menu {
-                display: block;
-            }
-    </style>
-    <div class="antialiased bg-transparent">
-            <header class="lg:px-16 px-6 bg-transparent flex flex-wrap items-center lg:py-0 py-2">
-                <div class="flex-1 flex justify-between items-center h-16 w-16 overflow-hidden">
-                    <a href="./index.html"><img src="./images/profile pic june 12 2023.jpeg" height="70px" width="70px" class="object-cover object-center" alt=""></a>
-                </div>
-        <label for="menu-toggle" class="pointer-cursor lg:hidden block"> <img src="./images/hamburger_menu.png" class="fill-current text-gray-900" width="45" height="45" viewBox="0 0 20 20" alt=""></label>
-        <input class="hidden" type="checkbox" id="menu-toggle" />
-    
-        <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
-        <nav>
-            <ul class="lg:flex items-center justify-between text-base text-white pt-4 lg:pt-0">
-            <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="./work_portfolio.html">Work Portfolio</a></li>
-            <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="./photography_portfolio.html">Photography Portfolio</a></li>
-            <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="./contact_me.html">Contact Me</a></li>
-            </ul>
-        </nav>
-        </div>
-            </header>   
-        </div>
+            <style>
+                #menu-toggle:checked + #menu {
+                    display: block;
+                }
+            </style>
+            <div class="antialiased bg-transparent">
+                <header class="lg:px-16 px-6 bg-transparent flex flex-wrap items-center lg:py-0 py-2">
+                    <div class="flex-1 flex justify-between items-center h-20 w-20 overflow-hidden">
+                        <a href="./index.html"><img src="./images/profile pic june 12 2023.jpeg" height="70px" width="70px" class="object-cover object-center" alt=""></a>
+                    </div>
+                    <label for="menu-toggle" class="pointer-cursor lg:hidden block"> <img src="./images/hamburger_menu.png" class="fill-current text-gray-900" width="45" height="45" viewBox="0 0 20 20" alt=""></label>
+                    <input class="hidden" type="checkbox" id="menu-toggle"/>
+                    <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+                        <nav>
+                            <ul class="lg:flex items-center justify-between text-base text-white pt-4 lg:pt-0">
+                                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="./work_portfolio.html">Work Portfolio</a></li>
+                                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="./photography_portfolio.html">Photography Portfolio</a></li>
+                                <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="./contact_me.html">Contact Me</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>   
+            </div>
         </header>
-        <main class="flex-grow"></main>
+        <main class="flex-grow">
+            <section class="bg-center bg-no-repeat bg-transparent bg-blend-multiply">
+                <div class="px-4 mx-auto max-w-screen-xl text-center py-8 lg:py-8">
+                    <h1 class="mb-4 text-4xl font-bold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">???</h1>
+                    <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">???????????</p>
+                </div>
+            </section>
+        </main>
         <footer
         class="mt-auto flex flex-col items-center bg-neutral-900 text-center text-white">
         <div class="container px-6 pt-6">
@@ -56,3 +62,9 @@
     <script defer src="index.js"></script>
 </body>
 </html>
+
+<!--
+    Things to do:
+        Fix tab spacing of one header and then copy the changes over to all other headers for all other webpages
+        make transparent heros and main container content
+-->
